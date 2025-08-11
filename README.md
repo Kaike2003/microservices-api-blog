@@ -59,8 +59,3 @@ O sistema é composto por 4 serviços independentes, que se comunicam via **Rabb
 - pnpm >= 10
 - Docker (para rodar RabbitMQ e banco de dados)
 
-Se quiser, eu posso criar **uma versão do README com um diagrama visual de arquitetura** já incorporado, para deixar mais profissional no GitHub. Isso ajuda muito na apresentação. Quer que eu faça essa versão também?
-
-
-
-
