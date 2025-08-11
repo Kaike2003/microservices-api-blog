@@ -1,0 +1,12 @@
+import { UpdateOutputDto } from "../../usecase/user/updatePassword.uscase";
+
+export class UpdateEmailPresenter {
+  private constructor() { }
+
+  static toHttp(output: UpdateOutputDto) {
+    return {
+      status: output.status,
+      message: output.message,
+    };
+  }
+}
